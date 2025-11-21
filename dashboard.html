@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roadblocks Dashboard</title>
+  <link rel="stylesheet" href="idiots.css">
+</head>
+<body>
+
+  <div class="dashboard-box">
+    <h2>Welcome, <span id="username">User</span></h2>
+    <p>Role: <span id="role">player</span></p>
+    <p>Roadbux: <span id="roadbux">0</span></p>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <!-- Supabase CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <!-- Dashboard script -->
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
